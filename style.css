@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header, footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10vw;
+    background-color: #e7e7e7;
+}
+.bodyPrincipal{
+    padding-inline: 10vw;
+    padding-block: 3vw;
+    background-color: #b9b9b9;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25vw;
+    width: 80vw;
+    margin-block: 2vw;
+    background-color: #e7e7e7;
+}
+
+header h1 {
+    color: #000; 
+    font-size: 2.7vw; 
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 
+        2px 2px 0 #fff,  
+        -2px -2px 0 #fff,
+        2px -2px 0 #fff,
+        -2px 2px 0 #fff;
+}
+
+.imagemContainer, .textoNormal{
+    width: 90%;
+    margin: 5%;
+}
+.textoNormal{
+    font-size: 2vw;
+    text-align: justify;
+}
+.sechozinho{
+    height: 54vw;
+}
+.sechozinho2{
+    height: 80vw;
+}
+
+
+section.sechozinho2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 110vw;
+    text-align: justify;
+}
+
+.imagembaixo {
+    width: 90%;
+    margin: 5%;
+    align-self: flex-start;
+    text-align: center;
+}
+
+.carousel-section {
+    padding: 6vw;
+    background-color: #e7e7e7;
+    text-align: center;
+    margin-left: 10vw;
+    height: 40vw;
+
+}
+
+.carousel-section h1.textoNormal {
+    font-size: 2.5vw;
+    margin-bottom: 2vw;
+}
+
+
+.carousel-inner img {
+    width: auto;
+    height: auto;
+}
